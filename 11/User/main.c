@@ -38,7 +38,8 @@ int main(void)
     dht11_init();
     
     while (1)
-    {
+    { 
+//			  test
         dht11_read_data();
         delay_ms(2000);
     }
